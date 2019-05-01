@@ -5,8 +5,7 @@ import PropTypes from "prop-types";
 class ReactToPrint extends React.Component {
 
   static propTypes = {
-    /** Copy styles over into print window. default: true */
-    copyStyles: PropTypes.bool, 
+    copyStyles: PropTypes.bool,
     /** Trigger action used to open browser print */
     trigger: PropTypes.func.isRequired,
     /** Content to be printed */
