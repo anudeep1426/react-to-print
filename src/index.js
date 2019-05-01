@@ -11,7 +11,6 @@ class ReactToPrint extends React.Component {
     trigger: PropTypes.func.isRequired,
     /** Content to be printed */
     content: PropTypes.func.isRequired,
-    /** Callback function to trigger before print */
     onBeforePrint: PropTypes.func,
     /** Callback function to trigger after print */
     onAfterPrint: PropTypes.func,
